@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <!--<item android:state_focused="true" android:drawable="@drawable/scenceadjust_press"></item>
+    <item android:state_selected="true"	android:drawable="@drawable/scenceadjust_press"></item>
+    <item android:state_pressed="true" android:drawable="@drawable/scenceadjust_press"></item>
+    <item android:state_checked="true" android:drawable="@drawable/scenceadjust_press"></item>
+    <item android:drawable="@drawable/scenceadjust"></item>-->
+
+
+<!--
+    <item android:state_focused="true" android:drawable="@drawable/scenceadjust"></item>
+    <item android:state_selected="true"	android:drawable="@drawable/scenceadjust"></item>
+    <item android:state_pressed="true" android:drawable="@drawable/scenceadjust"></item>
+    <item android:state_checked="true" android:drawable="@drawable/scenceadjust"></item>
+    <item android:drawable="@drawable/scenceadjust_press"></item>-->
+
+
+    <item android:drawable="@drawable/scenceadjust_press"  android:state_selected="true"/>
+    <item android:drawable="@drawable/scenceadjust_press"  android:state_focused="true"/>
+
+    <item android:state_pressed="true" android:drawable="@drawable/scenceadjust_press"></item>
+    <item android:state_checked="true" android:drawable="@drawable/scenceadjust_press"></item>
+
+    <item android:state_activated="true" android:drawable="@drawable/scenceadjust_press"></item>
+    <item android:drawable="@drawable/scenceadjust"  />
+</selector>
